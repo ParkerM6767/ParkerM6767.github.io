@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Tables and Forms</title>
+</head>
+
+
+<body>
+    <h1>Pizza Ordering Form</h1>
+
+    <h2>Contact Information</h2>
+
+    <form id="contact-info">
+        <span>Name: </span>
+        <input id="contact_name" required></input>
+        <br/>
+        <span>Phone:</span>
+        <input id="contact_phone" require>
+        <br/>
+        <span>Email: </span>
+        <input id="contact_email" require>
+
+        <h2>Select Pizza Size</h2>
+
+        <span>Pizza Size:</span>
+        <select id="pizza_size" required>
+            <option>--Select Size--</option>
+            <option id="med">Medium</option>
+            <option id="large">Large</option>
+            <option id="xl">XLarge</option>
+        </select>
+
+        <h2>Select Sauce</h2>
+        <input type="radio" id="marinara">Marinara</input>
+        <br/>
+        <input type="radio" id="ranch">Ranch</input>
+        <br/>
+        <input type="radio" id="no_sauce">No Sauce</input>
+
+        <h2>Select Toppings</h2>
+
+        <div>
+            <input type="checkbox">Pepperoni</input>
+            <input type="checkbox">Mushroom</input>
+            <input type="checkbox">Peppers</input>
+            <newline></newline>
+        </div>
+        <div>
+            <input type="checkbox">Sausage</input>
+            <input type="checkbox">Pineapple</input>
+            <input type="checkbox">Onions</input>
+        </div>
+
+        <h2>Additional Instructions</h2>
+
+        <textarea placeholder="Add instructions"></textarea>
+        <br/>
+        <button type="submit" id="submit-pizza">Submit</button>
+    </form>
+
+    <br/>
+    <table border=2>
+        <caption>
+            List of My Favorite Games
+        </caption>
+        <tr>
+            <th>Developer</th>
+            <th>Title</th>
+            <th>Year</th>
+        </tr>
+        <tr>
+            <td>Mojang</td>
+            <td>Minecraft</td>
+            <td>2011</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Bohemia Interactive</td>
+            <td rowspan="1">Arma 3</td>
+            <td rowspan="1">2013</td>
+        </tr>
+        <tr>
+            <td>Activision</td>
+            <td>Call of Duty: Black Ops II</td>
+            <td>2012</td>
+        </tr>
+        <tr>
+            <td colspan="3">Count: 3</th>
+        </tr>
+    </table>
+</body>

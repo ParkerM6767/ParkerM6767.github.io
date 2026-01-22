@@ -23,19 +23,19 @@
         <h2>Select Pizza Size</h2>
 
         <span>Pizza Size:</span>
-        <select id="pizza_size" required>
-            <option>--Select Size--</option>
-            <option id="med">Medium</option>
-            <option id="large">Large</option>
-            <option id="xl">XLarge</option>
+        <select name="size" id="pizza_size" required>
+            <option value="">--Select Size--</option>
+            <option value="med">Medium</option>
+            <option value="large">Large</option>
+            <option value="xl">XLarge</option>
         </select>
 
         <h2>Select Sauce</h2>
-        <input type="radio" id="marinara">Marinara</input>
+        <input type="radio" name="sauce" value="marinara" required>Marinara</input>
         <br/>
-        <input type="radio" id="ranch">Ranch</input>
+        <input type="radio" name="sauce" value="ranch">Ranch</input>
         <br/>
-        <input type="radio" id="no_sauce">No Sauce</input>
+        <input type="radio" name="sauce" value="no_sauce">No Sauce</input>
 
         <h2>Select Toppings</h2>
 
@@ -75,8 +75,12 @@
         </tr>
         <tr>
             <td rowspan="2">Bohemia Interactive</td>
-            <td rowspan="1">Arma 3</td>
-            <td rowspan="1">2013</td>
+            <td>Arma 3</td>
+            <td>2013</td>
+        </tr>
+        <tr>
+            <td>Arma Reforger</td>
+            <td>2023</td>
         </tr>
         <tr>
             <td>Activision</td>
@@ -84,7 +88,7 @@
             <td>2012</td>
         </tr>
         <tr>
-            <td colspan="3">Count: 3</th>
+            <td colspan="3">Count: 4</th>
         </tr>
     </table>
 </body>

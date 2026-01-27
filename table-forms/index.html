@@ -13,18 +13,18 @@
     <h2>Contact Information</h2>
 
     <form id="contact-info">
-        <label>Name: </span>
+        <label>Name: </label>
         <input id="contact_name" required>
         <br>
-        <label>Phone:</span>
+        <label>Phone:</label>
         <input id="contact_phone" required>
         <br>
-        <label>Email: </span>
+        <label>Email: </label>
         <input id="contact_email" required>
 
         <h2>Select Pizza Size</h2>
 
-        <label>Pizza Size:</span>
+        <label>Pizza Size:</label>
         <select name="size" id="pizza_size" required>
             <option value="">--Select Size--</option>
             <option value="med">Medium</option>
@@ -34,32 +34,34 @@
 
         <h2>Select Sauce</h2>
         <input type="radio" name="sauce" value="marinara" required>
-        <label>Marinara</span>
+        <label>Marinara</label>
         <br>
         <input type="radio" name="sauce" value="ranch">
-        <label>Ranch</span>
+        <label>Ranch</label>
         <br>
         <input type="radio" name="sauce" value="no_sauce">
-        <label>No Sauce</span>
+        <label>No Sauce</label>
 
         <h2>Select Toppings</h2>
 
-        <div>
-            <input type="checkbox">
-            <label>Pepperoni</span>
-            <input type="checkbox">
-            <label>Mushroom</span>
-            <input type="checkbox">
-            <label>Peppers</span>
-        </div>
-        <div>
-            <input type="checkbox">
-            <label>Sausage</span>
-            <input type="checkbox">
-            <label>Pineapple</span>
-            <input type="checkbox">
-            <label>Onions</span>
-        </div>
+        <section>
+            <input type="checkbox" value="pepperoni">
+            <label>Pepperoni</label>
+            <input type="checkbox" value="sausage">
+            <label>Sausage</label>
+        </section>
+        <section>
+            <input type="checkbox" value="mushroom">
+            <label>Mushroom</label>
+            <input type="checkbox" value="pineapple">
+            <label>Pineapple</label>
+        </section>
+        <section>
+            <input type="checkbox" value="peppers">
+            <label>Peppers</label>
+            <input type="checkbox" value="onions">
+            <label>Onions</label>
+        </section>
 
         <h2>Additional Instructions</h2>
 

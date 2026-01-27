@@ -51,6 +51,10 @@ td {
     padding: 0.5em;
 }
 
+a {
+    color: darkblue
+}
+
 a[target="_blank"] {
     color: darkred
 }

@@ -1,0 +1,33 @@
+main {
+    margin-left: 300px;
+}
+
+nav#menuItems {
+    background-color: black;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    height: 100%;
+    width: 300px;
+    top: 0;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    width:100%;
+}
+
+ul#jumpMenu {
+    color: blue;
+    background-color: orange;
+    text-align: center;
+    width: 100%;
+    left: -10;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+}

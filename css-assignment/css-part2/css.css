@@ -1,0 +1,64 @@
+header {
+    text-align: center;
+    background-color: red;
+    top: 0;
+    left: 5%;
+    width: 100%;
+    font-size: 26px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: fixed;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    background-color: black;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    flex-flow: column;
+    padding: 1em;
+    margin-left: 1em;
+}
+
+nav#jumpMenu {
+    position: fixed;
+    float: right;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    width: 10em;
+    font-size: 24px;
+    justify-content: center;
+    text-align: center;
+    background-color: orange;
+    z-index: 100;
+}
+
+main {
+    margin-left: 14vw;
+}
+
+nav#jumpMenu a {
+    display: block;
+}
+
+div#container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-top: 10vw;
+    padding: 1em;
+}
+
+article {
+    width: 300px;
+}

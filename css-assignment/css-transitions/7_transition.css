@@ -2,6 +2,15 @@ main {
     margin-left: 300px;
 }
 
+header {
+    background-color: red;
+    font-size: 32px;
+    top: 0;
+    padding: 0.5em;
+    text-align: center;
+    margin: 0;
+}
+
 nav#menuItems {
     background-color: black;
     justify-content: center;
@@ -12,6 +21,11 @@ nav#menuItems {
     top: 0;
 }
 
+h1 {
+    text-align: center;
+    font-size: 42px;
+}
+
 button {
     background-color: blue;
     color: white;
@@ -19,15 +33,60 @@ button {
     width:100%;
 }
 
+a[href="http://www.google.com"] {
+    background-image: url("arrow.png");
+    background-repeat: no-repeat;
+    display: flex;
+    width: 125px;
+    background-position: right;
+}
+
 ul#jumpMenu {
+    background-color: orange;
+    left: 0;
+    display: contents;
+}
+
+
+div#container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-top: 10vw;
+    padding: 1em;
+}
+
+article {
+    width: 300px;
+}
+
+ul a {
     color: blue;
     background-color: orange;
-    text-align: center;
-    width: 100%;
-    left: -10;
+    display: grid;
+}
+
+ul a:hover {
+    color: white
 }
 
 li {
     list-style-type: none;
     text-align: center;
+}
+
+p#thanks {
+    background-color: lightskyblue;
+    border: 2px black solid;
+    position: fixed;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    right:0;
+    bottom: 0;
+    margin: 0;
+    font-size: 32px;
 }

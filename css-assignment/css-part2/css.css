@@ -42,7 +42,7 @@ nav#jumpMenu {
 }
 
 main {
-    margin-left: 14vw;
+    margin-left: 250px;
 }
 
 nav#jumpMenu a {
@@ -61,4 +61,22 @@ div#container {
 
 article {
     width: 300px;
+}
+
+footer {
+    bottom: 0;
+}
+
+p#thanks {
+    background-color: lightskyblue;
+    border: 2px black solid;
+    position: fixed;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    right:0;
+    bottom: 0;
+    margin: 0;
+    font-size: 32px;
 }

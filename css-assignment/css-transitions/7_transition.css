@@ -78,7 +78,7 @@ a[href="http://www.google.com"] {
     background-image: url("arrow.png");
     background-repeat: no-repeat;
     display: flex;
-    width: 125px;
+    width: 40%;
     background-position: right;
 }
 

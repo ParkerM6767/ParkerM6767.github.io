@@ -1,14 +1,19 @@
-main {
+body {
+    margin: 0;
+}
+
+main { 
     margin-left: 300px;
 }
 
 header {
     background-color: red;
-    font-size: 32px;
+    font-size: 36px;
     top: 0;
-    padding: 0.5em;
+    padding: 0.2em;
     text-align: center;
     margin: 0;
+    font-weight: bold;
 }
 
 nav#menuItems {
@@ -31,7 +36,43 @@ button {
     color: white;
     font-size: 20px;
     width:100%;
+    height: 50px;
 }
+
+button:hover {
+    background-color: orange;
+}
+
+#jumpMenu {
+    display: none;
+    padding: 0;
+    margin: 0;
+    background-color: orange;
+    left: 0;
+}
+
+#jumpMenu a {
+    text-decoration: none;
+}
+
+#jumpMenu li {
+    padding: 0.25em;
+    font-size: 18px;
+}
+
+#jumpMenu li:hover {
+    color: white;
+    background-color: blue;
+}
+
+#jumpMenu:hover {
+    display: block;
+}
+
+#recentArticles:hover ~ #jumpMenu {
+    display: block;
+}
+
 
 a[href="http://www.google.com"] {
     background-image: url("arrow.png");
@@ -41,12 +82,6 @@ a[href="http://www.google.com"] {
     background-position: right;
 }
 
-ul#jumpMenu {
-    background-color: orange;
-    left: 0;
-    display: contents;
-}
-
 
 div#container {
     display: flex;
@@ -54,18 +89,32 @@ div#container {
     text-align: center;
     justify-content: center;
     margin-left: auto;
-    margin-top: 10vw;
     padding: 1em;
 }
 
 article {
     width: 300px;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    padding: 1%;
+    transition: color 2s, width 2s, height 2s, font-size 2s;
 }
 
-ul a {
-    color: blue;
-    background-color: orange;
-    display: grid;
+article:hover {
+    color: black;
+    width: 400px;
+    font-size: 24px;
+}
+
+
+article h2 {
+    text-align: left;
+}
+
+article p::first-letter {
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 ul a:hover {

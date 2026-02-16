@@ -4,6 +4,19 @@ body {
     background-color: beige;
 }
 
+section.container {
+    column-count: 2;
+    flex: auto;
+}
+
+section.container h1 {
+    text-align: center;
+}
+
+.container .row {
+    padding: 1vw;
+}
+
 section#summary {
     background-color: lightblue;
     padding: 1em;
@@ -18,4 +31,15 @@ section article {
     border-width: 5px;
     border: 1px solid black;
     width: device-width;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 900px) {
+  section.container {
+    column-count: 1;
+  }
 }

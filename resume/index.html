@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <title>Resume</title>
-        <link rel="stylesheet" href="resume.css"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
 
-    <body>
-        <section id="summary">
-             <h1>Stephen Meikle</h1>
-             <i>st736640@ucf.edu</i>
-             <p>
-                <a href="https://www.linkedin.com/in/stephen-m-b89990262/">LinkedIn Profile</a>
-             </p>
-             
-             <article>
-                <h2>Professional Summary</h2>
-                <p>Student currently enrolled at UCF pursuing a Bachelor in Computer Science. Experience in multiple programming languages and tech stacks utilizing HTML, CSS, JavaScript, Python, Java, and C; with experience in relational database management with PostgreSQL and MySQL</p>
-             </article>
-        </section>
-        <hr>
-        <section>
+<head>
+    <title>Resume</title>
+    <link rel="stylesheet" href="resume.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <section id="summary">
+        <h1>Stephen Meikle</h1>
+        <i>st736640@ucf.edu</i>
+        <p>
+            <a href="https://www.linkedin.com/in/stephen-m-b89990262/">LinkedIn Profile</a>
+        </p>
+
+        <article>
+            <h2>Professional Summary</h2>
+            <p>Student currently enrolled at UCF pursuing a Bachelor in Computer Science. Experience in multiple
+                programming languages and tech stacks utilizing HTML, CSS, JavaScript, Python, Java, and C; with
+                experience in relational database management with PostgreSQL and MySQL</p>
+        </article>
+    </section>
+    <hr>
+
+    <section class="container">
+        <section class="row">
             <h1>Education</h1>
             <article>
                 <h2>University of Central Florida (2025-Present)</h2>
@@ -33,17 +38,17 @@
                 <em>Associate's in Science — Computer Programming & Analysis</em>
             </article>
 
-            <hr>
         </section>
 
-        <section>
+        <section class="row">
             <h1>Experience</h1>
 
             <article>
                 <h2>Ward Corporation (Summer 2024)</h2>
                 <b>IT Assistant Manager — Internship</b>
                 <ul>
-                    <li>Managed and serviced multiple divisions from networking machinery, engineering equipment, and corporate infrastructure.</li>
+                    <li>Managed and serviced multiple divisions from networking machinery, engineering equipment, and
+                        corporate infrastructure.</li>
                 </ul>
             </article>
 
@@ -52,32 +57,23 @@
                 <b>Copy & Print Specialist — Associate</b>
             </article>
         </section>
+    </section>
 
-        <hr>
+    <hr>
 
-        <section>
-            <h1>Skills</h1>
-            <ul>
-                <li>Proficient in: Java, Python, C, HTML, CSS, Lua JavaScript</li>
-                <li>Familiar with: SQL, Git, Linux, Node.js, Agile Methodologies</li>
-                <li>Strong problem-solving and analytical skills</li>
-                <li>Excellent communication and teamwork abilities</li>
-            </ul>
-        </section>
+    <section>
+        <h1>Projects</h1>
+        <article>
+            <h2><a href="../projects/Video-Game-Webstore/">Green Lion Gaming Webstore</a></h2>
+            <p>Video game webstore with authentication, session storage, REST API endpoints, and databse management
+                using mySQL and Express.</p>
+        </article>
 
-        <hr>
+        <article>
+            <h2><a href="../projects/tiny-VM-Compiler/">Systems Software — PL/0 Compiler</a></h2>
+            <p>Project for systems software developing a compiler and virtual machine in C using the PL/0 grammar.</p>
+        </article>
+    </section>
+</body>
 
-        <section>
-            <h1>Projects</h1>
-            <article>
-                <h2><a href="../projects/Video-Game-Webstore/">Green Lion Gaming Webstore</a></h2>
-                <p>Video game webstore with authentication, session storage, REST API endpoints, and databse management using mySQL and Express.</p>
-            </article>
-
-            <article>
-                <h2><a href="../projects/tiny-VM-Compiler/">Systems Software — PL/0 Compiler</a></h2>
-                <p>Project for systems software developing a compiler and virtual machine in C using the PL/0 grammar.</p>
-            </article>
-        </section>
-    </body>
 </html>

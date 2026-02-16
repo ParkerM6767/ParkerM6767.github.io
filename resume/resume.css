@@ -36,6 +36,7 @@ section article {
 img {
   width: 100%;
   height: auto;
+  max-width: fit-content;
 }
 
 @media screen and (max-width: 900px) {

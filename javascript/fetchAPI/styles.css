@@ -1,0 +1,9 @@
+#pImg {
+    width:200px;
+}
+
+#pokeData {
+    text-align: center;
+    padding: 1em;
+    border: black 10px;
+}

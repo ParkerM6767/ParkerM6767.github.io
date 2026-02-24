@@ -38,11 +38,17 @@ async function pokeFetch() {
 
 
 function addToTeam() {
-    const pokeTable = document.getElementById("pTeam")
+    const pokeTable = document.getElementById("teamContainer")
 
     pokeTable.innerHTML = pokeTable.innerHTML + 
-    `<tr>
-    <p>${currentPokemon}</p>
-    <ul></ul>
-    <tr>`
+    `<article class="teamTable">
+        <img width="150px" src="${document.getElementById("pImg").src}">
+        <h2>${currentPokemon}</h2>
+        <ul>
+            <li id="tmove1">${document.getElementById("move1").value}</li>
+            <li id="tmove2">${document.getElementById("move2").value}</li>
+            <li id="tmove3">${document.getElementById("move3").value}</li>
+            <li id="tmove4">${document.getElementById("move4").value}</li>
+        </ul>
+    </artcle>`
 }

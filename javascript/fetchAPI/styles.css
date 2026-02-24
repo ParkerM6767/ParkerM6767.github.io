@@ -7,3 +7,13 @@
     padding: 1em;
     border: black 10px;
 }
+
+#teamContainer {
+    column-count: 2;
+}
+
+.teamTable {
+    border-style: solid;
+    display: flex;
+    border-radius: 5px;
+}

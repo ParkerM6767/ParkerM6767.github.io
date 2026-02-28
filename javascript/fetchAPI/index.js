@@ -18,7 +18,13 @@ async function pokeFetch() {
 
     pName.innerHTML = pokeData.name
     pImg.src = pokeData.sprites.front_default
-    pSound.innerHTML = pSound.innerHTML + `<source src=${pokeData.cries.latest} type="audio/ogg">`
+    pSound.innerHTML = ""
+    pSound.innerHTML = `
+    <audio controls>
+            <source src=${pokeData.cries.latest} type="audio/ogg"
+            Your browser does not support the audio tag.
+    </audio>
+    `
 
     currentPokemon = pokeData.name;
     
